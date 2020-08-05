@@ -52,16 +52,20 @@ nav a:hover {
 
 header {
   font-family: 'Chelsea Market', cursive;
-  display:inline-block;
   width:100%;
+  padding: 0 10%;
+  /* text-align: center; */
 }
 
 .info {
   display:inline-block;
   width:60%;
+  margin: 5% auto;
+  position: absolute;
+  text-align: center;
 }
 
-.logo img {
+header img {
   max-width:20%;
   border-radius: 50%;
   display:inline-block;
