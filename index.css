@@ -2,7 +2,6 @@
   padding:0;
   margin:0;
   box-sizing:border-box;
-  border:1px solid grey;
 }
 html{
   font-size:62.5%;
@@ -26,35 +25,57 @@ text-decoration: none;
 text-align: center;
 }
 
+.buttons {
+  margin-left: 8%;
+}
+
 .button1 {
   background-color: #FF764E;
+}
+
+.button1:hover {
+  color: #FF764E;
 }
 
 .button2 {
   background-color: #5ED3EB;
 }
 
+.button2:hover {
+  color: #5ED3EB;
+}
+
 .button3 {
   background-color: #FFCD69;
 }
 
+.button3:hover {
+  color: #FFCD69;
+}
+
 nav a:hover {
   background-color: white;
-  color: #F87B99;
   animation-name: navhover;
-  animation-duration: 6s;
+  animation-duration: 2s;
 }
 
 @keyframes navhover {
   from {background-color: white;}
-  to {background-color: #ffed24;}
+  to {background-color: #f1ff54;}
 }
 
 header {
-  font-family: 'Chelsea Market', cursive;
   width:100%;
   padding: 0 10%;
-  /* text-align: center; */
+  word-spacing:3px;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+#line1 {
+
 }
 
 .info {
@@ -77,15 +98,20 @@ header img {
   color: white;
   background-color: #DDB9A3;
   max-width: 100%;
-  margin: 0 5%;
-  padding: 0;
+  margin: 5% 5%;
+  padding: 1% 2%;
+}
+
+.section-one:hover {
+  color: #DDB9A3;
+  background-color: #ff5454;
 }
 
 .section-two p {
   max-width:100%;
   height: 30%;
   width: 30%;
-  margin: 0 auto;
+  margin: 5% auto;
   text-align: center;
 }
 
@@ -98,11 +124,11 @@ header img {
 
 footer {
   background-color: #F9E7DC;
+  padding-left: 10%;
 }
 
 .mountains img {
   max-width:100%;
   height: 300px;
-  width: 90%;
-  margin: 0 5%;
+  width: 100%;
 }
